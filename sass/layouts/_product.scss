@@ -2,23 +2,15 @@
 .product {
    padding-bottom: 94px;
 }
-.section-caption {
-   margin-bottom: 50px;
-
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.17;
-   text-align: center;
-   letter-spacing: 0.03em;
-}
 .product__list {
    display: flex;
 }
 .product__item {
    position: relative;
-}
-.product__item:not(:last-child) {
-   margin-right: 30px;
+
+   &:not(:last-child) {
+         margin-right: 30px;
+      }
 }
 .product__tittle {
    position: absolute;

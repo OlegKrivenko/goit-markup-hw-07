@@ -1,11 +1,15 @@
 /* Секція "header" */
+
 .header__container,
-.nav,
 .nav__list,
 .contacts {
    display: flex;
    align-items: center;
    margin-left: auto;
+}
+.nav {
+   display: flex;
+   align-items: center;
 }
 .nav__item:not(:last-child) {
    margin-right: 50px;
@@ -13,17 +17,7 @@
 .contacts__item:not(:last-child) {
    margin-right: 30px;
 }
-.logo {
-   margin-right: 93px;
 
-   font-family: "Raleway", sans-serif;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
-   text-decoration: none;
-   color: var(--logo-color);
-}
 .logo__header {
    color: var(--logo-second-color);
 }
