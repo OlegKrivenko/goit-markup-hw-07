@@ -1,0 +1,20 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/base';
+@import './base/reset';
+
+@import './components/container';
+@import './components/backdrop';
+@import './components/modal';
+
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/feature';
+@import './layouts/product';
+@import './layouts/team';
+@import './layouts/client';
+@import './layouts/footer';
+@import './layouts/projects';
+
