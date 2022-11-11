@@ -66,9 +66,10 @@
 .modal__form-label {
    display: block;
    position: relative;
+   margin-bottom: 10px;
 
-   &:not(:last-child) {
-      margin-bottom: 10px;
+   &:last-child{
+      margin-bottom: 0px;
    }
 }
 .modal__form-title {

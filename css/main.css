@@ -171,9 +171,10 @@ p {
 .modal__form-label {
   display: block;
   position: relative;
-}
-.modal__form-label:not(:last-child) {
   margin-bottom: 10px;
+}
+.modal__form-label:last-child {
+  margin-bottom: 0px;
 }
 
 .modal__form-title {
@@ -505,6 +506,10 @@ p {
 .nav__link:focus,
 .contacts__link:hover,
 .contacts__link:focus {
+  color: var(--action-color);
+}
+
+.current {
   color: var(--action-color);
 }
 

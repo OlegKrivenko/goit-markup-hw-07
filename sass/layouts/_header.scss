@@ -48,6 +48,9 @@
 .contacts__link:focus {
    color: var(--action-color);
 }
+.current {
+   color: var(--action-color);
+}
 .current::after {
    content: "";
    position: absolute;
